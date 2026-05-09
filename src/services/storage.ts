@@ -1,4 +1,4 @@
-import { Settings, SessionRecord, TimerPhase } from '../types';
+import type { Settings, SessionRecord, TimerPhase } from '../types';
 import { DEFAULT_SETTINGS, MAX_HISTORY_ENTRIES, STORAGE_KEYS, WORK_DURATION, BREAK_DURATION } from '../constants';
 
 export const getSettings = (): Settings => {

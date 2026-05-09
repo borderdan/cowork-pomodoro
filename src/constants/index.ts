@@ -1,4 +1,4 @@
-import { Settings } from '../types';
+import type { Settings } from '../types';
 
 export const DEFAULT_SETTINGS: Settings = { workDuration: 25, breakDuration: 5 };
 export const MAX_HISTORY_ENTRIES = 10;
